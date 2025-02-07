@@ -6,6 +6,7 @@ public class InheritanceTester {
         Car car = new Car("Honda");
         System.out.println("Vehicle type " + vehicle.getType());
         System.out.println("Car brand " + car.getBrand());
+        car.setType("Sedan");
         System.out.println("Car's vehicle parent type " + car.getType());
         System.out.println("Car's vehicle parent wheels " + car.getNumberOfWheels());
         System.out.println("Car's vehicle parent max speed " + car.getMaxSpeed());
